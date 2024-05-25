@@ -1,0 +1,47 @@
+module.exports = Object.freeze({
+	TASK_STATUSES: Object.freeze({
+		NEW: 'NEW',
+		IN_PROGRESS: 'IN_PROGRESS',
+		PAST_DUE: 'PAST_DUE',
+		BLOCKED: 'BLOCKED',
+		COMPLETED: 'COMPLETED',
+		APPROVAL_PENDING: 'APPROVAL_PENDING',
+	}),
+	WORKFLOW_STATUSES: Object.freeze({
+		BEHIND_SCHEDULE: 'BEHIND SCHEDULE',
+		COMPLETE: 'COMPLETE',
+		ON_TRACK: 'ON TRACK',
+		STALLED: 'STALLED',
+		STARTED: 'STARTED',
+	}),
+	REPEAT_TYPE: Object.freeze({
+		DAILY: 'DAILY',
+		WEEKLY: 'WEEKLY',
+		MONTHLY: 'MONTHLY',
+		ANNUALLY: 'ANNUALLY',
+	}),
+	SOCKET_EVENTS: Object.freeze({
+		CONNECTION: 'connection',
+		DISCONNECT: 'disconnect',
+		UPDATE_TASK: 'updated_task',
+		STOP_TRACKING: 'stop_tracking',
+		TASK_UPDATE: 'task_update',
+		TASK_UPDATE_RESPONSE: 'task_update_response',
+		ADD_COMMENT: 'add_comment',
+		DELETE_COMMENT: 'delete_comment',
+		ALL_COMMENTS: 'all_comments',
+		GET_TASK: 'get_task',
+		USER_TRACKING: 'user_tracking',
+	}),
+	USER_ROLE: Object.freeze({
+		SUPER_ADMIN: 11,
+		ADMIN: 12,
+		TEAM_MANAGER: 13,
+		TEAM_MEMBER: 14,
+		CLIENT: 15,
+	}),
+	RECUR_PREFERENCES: Object.freeze({
+		START_THE_RECURRENCE_ON_LAST_WEEK_OF_THE_MONTH: 2,
+		START_THE_RECURRENCE_ON_WEEK_EVERY_FOURTH_WEEK_OF_THE_MONTH: 1,
+	}),
+});
