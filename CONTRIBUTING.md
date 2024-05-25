@@ -43,7 +43,7 @@ All PRs will undergo code review before being merged. Be open to feedback and be
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](../LICENSE).
+By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](LICENSE).
 
 ---
 
